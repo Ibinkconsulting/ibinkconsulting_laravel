@@ -1,0 +1,110 @@
+{
+  "navbar": {
+    "brand": {
+      "name": "IBINK",
+      "tagline": "REAL ESTATE"
+    },
+    "links": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "masterclass": "Masterclass",
+      "about": "About",
+       "insights" : "Insights"
+    },
+    "contactButton": "Contact Us",
+    "menuTitle": "Navigation Menu",
+    "language": {
+      "en": "English",
+      "es": "Spanish",
+      "nl": "Dutch"
+    }
+  },
+  "hero": {
+    "title": "Luxury Properties in the Mediterranean",
+    "subtitle": "Buy, sell, and invest in exclusive real estate locations",
+    "filters": {
+      "location": "Location",
+      "type": "Type",
+      "bedrooms": "Bedrooms",
+      "price": "Price"
+    },
+    "buttons": {
+      "search": "Search",
+      "filterProperties": "Filter Properties",
+      "applyFilter": "Apply Filter"
+    },
+    "locations": {
+      "ibiza": "Ibiza",
+      "mallorca": "Mallorca",
+      "sardinia": "Sardinia"
+    },
+    "types": {
+      "villa": "Villa",
+      "apartment": "Apartment",
+      "penthouse": "Penthouse"
+    },
+    "bedrooms": {
+      "1": "1+",
+      "2": "2+",
+      "3": "3+",
+      "4": "4+"
+    },
+    "prices": {
+      "500": "Up to €500k",
+      "1000": "€500k - €1M",
+      "1000+": "€1M+"
+    }
+  },
+  "propertiesForSale": {
+    "title": "Properties for Sale",
+    "viewAllBtn": "View All Properties"
+  },
+  "aboutUs": {
+    "founderTitle": "The Founder of\nIbink Real Estate",
+    "founderText": "My name is David J. Ibink, founder of Ibink Real Estate. Since 1930, the Ibink family has upheld a legacy of excellence in the luxury industry, rooted in the world of fine jewellery and watches. Today, I carry this heritage into luxury real estate — guiding you in buying, selling, and managing your property. It is my honour to serve you.",
+    "readMoreBtn": "READ MORE",
+    "partnershipTitle": "We work in Partnership\nwith Rosalie Zuidema",
+    "partnershipText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "baerzProperty": {
+    "description": "Ibink Real Estate represents Baerz & Co as a Personal Property Advisor for Marbella Metropolitan Area."
+  },
+  "masterClass": {
+    "label": "Free masterclass",
+    "heading": "Thinking about buying a \nproperty in Spain but \nnot sure where to start?",
+    "description": "We know that the process can feel overwhelming, especially with different regulations, language barriers, and knowing who to trust. To make it easier, we have created a free Masterclass that explains everything clearly, guiding you through each step so you can move forward with confidence.",
+    "inputName": "Full Name",
+    "inputEmail": "Email",
+    "submitBtn": "Get Instant Access"
+  },
+  "contentMiddleVideo": {
+    "learnMore": "Learn More",
+    "newApartmentsTitle": "New Luxury Apartments in Marbella",
+    "comingSubtitle": "coming 2027"
+  },
+  "blogPage" : {
+    "insights" : "Insights",
+    "category" : "Category",
+    "categoryOption" : {
+    "viewAll" : "View all",
+    "buyingProperty" : "Buying property",
+    "sellingProperty" : "Selling Property",
+    "lifestyle" : "Lifestyle",
+    "news" : "News"
+    },
+    "viewMore" : "View More"
+  },
+  "salePage": {
+    "title" : "Sell your Property in the Costa del Sol, Spain",
+    "subTitle" : "Strategic guidance for property owners who want to sell well, not just sell fast.",
+    "saleProperty" : {
+      "title" : "Selling property in Spain requires more than listing a home",
+      "text1" : "Selling property in Spain often starts with optimism. Strong demand, international buyers and rising prices create confidence, especially in regions like the Costa del Sol.",
+      "text2" : "What many sellers underestimate is that a successful sale is not defined by exposure alone. Pricing strategy, buyer quality, legal readiness and negotiation dynamics determine whether a sale proceeds smoothly or becomes prolonged, uncertain or compromised.",
+      "text3" : "The Spanish property market operates differently from what many sellers are used to. Multiple agents, unclear representation and inconsistent buyer qualification can create noise rather than results. This is where many sales underperform — not because the property lacks value, but because the process lacks structure."
+    },
+    "whySale" : {
+      "title" : "Why selling property in Spain can be challenging"
+    }
+  }
+}

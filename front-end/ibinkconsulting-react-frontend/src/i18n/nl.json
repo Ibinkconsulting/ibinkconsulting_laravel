@@ -1,0 +1,110 @@
+{
+  "navbar": {
+    "brand": {
+      "name": "IBINK",
+      "tagline": "VASTGOED"
+    },
+    "links": {
+      "buy": "Kopen",
+      "sell": "Verkopen",
+      "masterclass": "Masterclass",
+      "about": "Over ons",
+      "insights" : "Inzichten"
+    },
+    "contactButton": "Neem contact op",
+    "menuTitle": "Navigatiemenu",
+    "language": {
+      "en": "Engels",
+      "es": "Spaans",
+      "nl": "Nederlands"
+    }
+  },
+  "hero": {
+    "title": "Luxe woningen in het Middellandse Zeegebied",
+    "subtitle": "Koop, verkoop en investeer in exclusieve vastgoedlocaties",
+    "filters": {
+      "location": "Locatie",
+      "type": "Type",
+      "bedrooms": "Slaapkamers",
+      "price": "Prijs"
+    },
+    "buttons": {
+      "search": "Zoeken",
+      "filterProperties": "Eigenschappen filteren",
+      "applyFilter": "Filter toepassen"
+    },
+    "locations": {
+      "ibiza": "Ibiza",
+      "mallorca": "Mallorca",
+      "sardinia": "Sardinië"
+    },
+    "types": {
+      "villa": "Villa",
+      "apartment": "Appartement",
+      "penthouse": "Penthouse"
+    },
+    "bedrooms": {
+      "1": "1+",
+      "2": "2+",
+      "3": "3+",
+      "4": "4+"
+    },
+    "prices": {
+      "500": "Tot €500k",
+      "1000": "€500k - €1M",
+      "1000+": "€1M+"
+    }
+  },
+  "propertiesForSale": {
+    "title": "Te Koop Staande Woningen",
+    "viewAllBtn": "Bekijk Alle Eigendommen"
+  },
+  "aboutUs": {
+    "founderTitle": "De Oprichter van\nIbink Vastgoed",
+    "founderText": "Mijn naam is David J. Ibink, oprichter van Ibink Vastgoed. Sinds 1930 heeft de familie Ibink een erfenis van excellentie in de luxe-industrie behouden, geworteld in de wereld van fijne sieraden en horloges. Tegenwoordig draag ik dit erfgoed over naar luxe vastgoed — ik begeleid u bij het kopen, verkopen en beheren van uw eigendom. Het is een eer om u van dienst te zijn.",
+    "readMoreBtn": "LEES MEER",
+    "partnershipTitle": "We werken in Partnerschap\nmet Rosalie Zuidema",
+    "partnershipText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "baerzProperty": {
+    "description": "Ibink Real Estate vertegenwoordigt Baerz & Co als Persoonlijk Vastgoedadviseur voor het Marbella Metropolitane Gebied."
+  },
+  "masterClass": {
+    "label": "Gratis masterclass",
+    "heading": "Denkt u eraan een \neigendom in Spanje te kopen maar \niet zeker waar te beginnen?",
+    "description": "We weten dat het proces overweldigend kan zijn, vooral met verschillende regelgeving, taalbarrières en weten wie te vertrouwen. Om het gemakkelijker te maken, hebben we een gratis Masterclass gemaakt die alles duidelijk uitlegt en je stap voor stap begeleidt, zodat je vol vertrouwen verder kunt.",
+    "inputName": "Volledige naam",
+    "inputEmail": "E-mail",
+    "submitBtn": "Krijg direct toegang"
+  },
+  "contentMiddleVideo": {
+    "learnMore": "Meer informatie",
+    "newApartmentsTitle": "Nieuwe luxe appartementen in Marbella",
+    "comingSubtitle": "komend in 2027"
+  },
+  "blogPage" : {
+    "insights" : "Inzichten",
+     "category" : "Categorie",
+     "categoryOption" : {
+    "viewAll" : "Bekijk alles",
+     "buyingProperty" : "Vastgoed kopen",
+     "sellingProperty" : "Vastgoed verkopen",
+     "lifestyle" : "levensstijl",
+     "news" : "nieuws"
+    },
+    "viewMore" : "Bekijk meer"
+  },
+   "salePage": {
+    "title" : "Verkoop uw woning aan de Costa del Sol, Spanje",
+    "subTitle" : "Strategische begeleiding voor vastgoedeigenaren die goed willen verkopen, niet alleen snel.",
+    "saleProperty" : {
+      "title" : "Een woning verkopen in Spanje vraagt om meer dan alleen het plaatsen van een advertentie.",
+      "text1" : "Het verkopen van een woning in Spanje begint vaak met optimisme. Sterke vraag, internationale kopers en stijgende prijzen creëren vertrouwen, vooral in regio’s zoals de Costa del Sol",
+      "text2" : "Wat veel verkopers onderschatten, is dat een succesvolle verkoop niet alleen wordt bepaald door de zichtbaarheid van het pand. Prijsstrategie, de kwaliteit van de kopers, juridische gereedheid en onderhandelingsdynamiek bepalen of een verkoop soepel verloopt of juist langdurig, onzeker of gecompromitteerd wordt.",
+      "text3" : "De Spaanse vastgoedmarkt werkt anders dan veel verkopers gewend zijn. Meerdere makelaars, onduidelijke vertegenwoordiging en inconsistente koperkwalificaties kunnen eerder ruis veroorzaken dan resultaten.Hier presteren veel verkopen ondermaats — niet omdat het pand geen waarde heeft, maar omdat het proces structuur mist."
+    },
+    "whySale" : {
+      "title" : "Waarom het verkopen van een woning in Spanje een uitdaging kan zijn"
+    }
+  }
+}

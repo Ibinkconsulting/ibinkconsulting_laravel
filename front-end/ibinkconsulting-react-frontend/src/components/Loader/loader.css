@@ -1,0 +1,74 @@
+.circle-loader {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: relative;
+    animation: spin 2s linear infinite;
+}
+
+/* Track Circle */
+.circle-loader::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 6px solid #cce9ff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    animation: track 1.2s ease-in-out infinite;
+}
+
+/* Active Circle */
+.circle-loader::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 6px solid #299df5;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: active 1.2s ease-in-out infinite;
+}
+
+/* Rotation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Track Animation */
+@keyframes track {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0.4;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0.4;
+    }
+}
+
+/* Active Stroke Animation */
+@keyframes active {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}

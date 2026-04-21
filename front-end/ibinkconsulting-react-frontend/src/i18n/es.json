@@ -1,0 +1,111 @@
+{
+  "navbar": {
+    "brand": {
+      "name": "IBINK",
+      "tagline": "BIENES RAÍCES"
+    },
+    "links": {
+      "buy": "Comprar",
+      "sell": "Vender",
+      "masterclass": "Clase magistral",
+      "blog": "Blog",
+      "about": "Acerca de",
+      "insights" : "Perspectivas"
+    },
+    "contactButton": "Contáctanos",
+    "menuTitle": "Menú de Navegación",
+    "language": {
+      "en": "Inglés",
+      "es": "Español",
+      "nl": "Neerlandés"
+    }
+  },
+  "hero": {
+    "title": "Propiedades de lujo en el Mediterráneo",
+    "subtitle": "Compra, vende e invierte en ubicaciones inmobiliarias exclusivas",
+    "filters": {
+      "location": "Ubicación",
+      "type": "Tipo",
+      "bedrooms": "Dormitorios",
+      "price": "Precio"
+    },
+    "buttons": {
+      "search": "Buscar",
+      "filterProperties": "Filtrar propiedades",
+      "applyFilter": "Aplicar filtro"
+    },
+    "locations": {
+      "ibiza": "Ibiza",
+      "mallorca": "Mallorca",
+      "sardinia": "Cerdeña"
+    },
+    "types": {
+      "villa": "Villa",
+      "apartment": "Apartamento",
+      "penthouse": "Ático"
+    },
+    "bedrooms": {
+      "1": "1+",
+      "2": "2+",
+      "3": "3+",
+      "4": "4+"
+    },
+    "prices": {
+      "500": "Hasta €500k",
+      "1000": "€500k - €1M",
+      "1000+": "€1M+"
+    }
+  },
+  "propertiesForSale": {
+    "title": "Propiedades en Venta",
+    "viewAllBtn": "Ver Todas las Propiedades"
+  },
+  "aboutUs": {
+    "founderTitle": "El Fundador de\nIbink Bienes Raíces",
+    "founderText": "Mi nombre es David J. Ibink, fundador de Ibink Bienes Raíces. Desde 1930, la familia Ibink ha mantenido un legado de excelencia en la industria del lujo, con raíces en el mundo de la alta joyería y relojes. Hoy, llevo esta herencia al sector inmobiliario de lujo, guiándote en la compra, venta y gestión de tu propiedad. Es un honor servirte.",
+    "readMoreBtn": "LEER MÁS",
+    "partnershipTitle": "Trabajamos en Asociación\ncon Rosalie Zuidema",
+    "partnershipText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "baerzProperty": {
+    "description": "Ibink Real Estate representa a Baerz & Co como Asesor de Propiedades Personales para el Área Metropolitana de Marbella."
+  },
+  "masterClass": {
+    "label": "Masterclass gratuita",
+    "heading": "¿Piensas en comprar una \npropiedad en España pero \nno sabes por dónde empezar?",
+    "description": "Sabemos que el proceso puede resultar abrumador, especialmente con diferentes regulaciones, barreras de idioma y saber en quién confiar. Para facilitarlo, hemos creado una Masterclass gratuita que explica todo claramente, guiándote paso a paso para que avances con confianza.",
+    "inputName": "Nombre completo",
+    "inputEmail": "Correo electrónico",
+    "submitBtn": "Obtenga acceso instantáneo"
+  },
+  "contentMiddleVideo": {
+    "learnMore": "Más información",
+    "newApartmentsTitle": "Nuevos apartamentos de lujo en Marbella",
+    "comingSubtitle": "lanzamiento en 2027"
+  },
+  "blogPage" : {
+    "insights" : "Perspectivas",
+     "category" : "Categoría",
+     "categoryOption" : {
+    "viewAll" : "Ver todo",
+    "buyingProperty" : "Comprar propiedad",
+    "sellingProperty" : "Vender propiedad",
+    "lifestyle" : "Estilo de vida",
+    "news" : "noticias"
+    },
+    "viewMore" : "Ver más"
+  },
+   "salePage": {
+    "title" : "Venda su propiedad en la Costa del Sol, España",
+    "subTitle" : "Orientación estratégica para propietarios que desean vender bien, no solo vender rápido.",
+    "saleProperty" : {
+      "title" : "Vender una propiedad en España requiere más que simplemente listar una vivienda.",
+      "text1" : "Vender una propiedad en España a menudo comienza con optimismo. La fuerte demanda, los compradores internacionales y el aumento de los precios generan confianza, especialmente en regiones como la Costa del Sol.",
+      "text2" : "Lo que muchos vendedores subestiman es que una venta exitosa no se define únicamente por la exposición de la propiedad. La estrategia de precios, la calidad de los compradores, la preparación legal y la dinámica de negociación determinan si la venta se realiza sin problemas o se prolonga, se vuelve incierta o se ve comprometida.",
+      "text3" : "El mercado inmobiliario español funciona de manera diferente a lo que muchos vendedores están acostumbrados. La presencia de múltiples agentes, la representación poco clara y la calificación inconsistente de los compradores pueden generar ruido en lugar de resultados. Aquí es donde muchas ventas no alcanzan su potencial — no porque la propiedad carezca de valor, sino porque el proceso carece de estructura."
+    },
+    "whySale" : {
+      "title" : "Por qué vender una propiedad en España puede ser un desafío"
+    }
+  }
+}

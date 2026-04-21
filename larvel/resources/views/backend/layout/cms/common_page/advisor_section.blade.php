@@ -1,0 +1,98 @@
+@extends('backend.app')
+
+@push('style')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+@endpush
+
+@section('title', 'Common Page - Advisor Section')
+
+@section('content')
+    <div class="app-content content">
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title mb-4">Advisor Section</h4>
+
+                        <form method="POST" action="{{ route('cms.common_page.advisor_section.update') }}"
+                            enctype="multipart/form-data" class="form">
+                            @csrf
+                            @method('PATCH')
+
+                            <!-- Logo -->
+                            <div class="row mb-3">
+                                <label for="logo" class="col-3 col-form-label"><i>Logo</i></label>
+                                <div class="col-9">
+                                    <input type="file" 
+                                        name="logo" 
+                                        id="logo" 
+                                        class="dropify"
+                                        accept="image/*"
+                                        data-allowed-file-extensions="png jpg jpeg"
+                                        data-max-file-size="5M"
+                                        data-default-file="{{ isset($data->logo) ? asset($data->logo) : '' }}">
+                                    @error('logo') 
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Title -->
+                            <div class="row mb-3">
+                                <label for="title" class="col-3 col-form-label"><i>Title</i></label>
+                                <div class="col-9">
+                                    <input type="text" 
+                                        name="title" 
+                                        id="title" 
+                                        class="form-control"
+                                        value="{{ old('title', $data?->title) }}" 
+                                        placeholder="Enter section title..."
+                                        required>
+                                    @error('title') 
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Save Button & Cancel Button -->
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <div class="text-end">
+                                        <button type="submit" class="btn btn-success px-4">
+                                            <i class="fas fa-save me-1"></i> Save Changes
+                                        </button>
+                                        <button type="reset" class="btn btn-outline-danger ms-2">
+                                            <i class="fas fa-times me-1"></i> Cancel
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+
+@push('script')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Dropify for all file inputs
+            $('.dropify').dropify({
+                messages: {
+                    'default': 'Drag and drop a file here or click',
+                    'replace': 'Drag and drop or click to replace',
+                    'remove': 'Remove',
+                    'error': 'Ooops, something wrong happened.'
+                }
+            });
+        });
+    </script>
+@endpush
